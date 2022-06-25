@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo selector</title>
+  <style>
+    .container{
+      border: 2px solid red;
+      background-color: rgb(223,245,201);
+      padding: 34px;
+      margin: 34px auto;
+      width: 666px;
+    }
+    /* text decoration property */
+    a{
+      text-decoration: none; 
+    }
+    a:hover{
+      color: rgb(15, 15, 15);
+      background-color: aqua;
+    }
+    a:visited{
+      background-color:yellow;
+    }
+    a:active{
+      background-color: blue;
+    }
+    .btn{
+      background-color: crimson;
+      padding:6px;
+      border:none;
+      cursor:pointer;
+      font-size:18px;
+      border-radius:4px;
+    }
+    .btn:hover{
+      border: 2px solid black;
+    }
+  </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+      <h3>This is heading</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem itaque porro suscipit sapiente eligendi expedita architecto. Ad recusandae dolores necessitatibus. Ullam deserunt, quos voluptatum doloremque ab, dolorem dignissimos aliquam doloribus nisi dolore maiores debitis!</p>
+      <a href="https://google.com" class="btn">Read more</a>
+      <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>
